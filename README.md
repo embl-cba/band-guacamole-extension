@@ -3,6 +3,10 @@
 Authentication extension for [Apache Guacamole](https://guacamole.apache.org/)
 1.6.0, as used by the BAND portal. Apache License 2.0.
 
+Based on the Guacamole extension of Strudel Web, developed by the
+[MASSIVE](https://www.massive.org.au/) facility at Monash University
+(Australia).
+
 The portal does the login (Keycloak). When a user opens a desktop or a
 terminal, the portal puts that one connection in a short-lived cookie
 (1 minute, path `/`) and loads Guacamole in an iframe; this extension turns
