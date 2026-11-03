@@ -1,0 +1,9 @@
+{
+    "guacamoleVersion" : "1.6.0",
+    "name"      : "BAND Authentication Extension",
+    "namespace" : "band-guacamole-extension",
+
+    "authProviders" : [
+        "org.embl.band.guacamole.auth.CookiesAuthenticationProvider"
+    ]
+}
